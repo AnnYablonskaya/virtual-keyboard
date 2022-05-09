@@ -3,6 +3,6 @@ export function set(name, value) {
   window.localStorage.setItem(name, JSON.stringify(value));
 }
 
-export function get(name, sub = null) {
-  return JSON.parse(window.localStorage.getItem(name) || sub);
+export function get(name, sumbol = null) {
+  return JSON.parse(window.localStorage.getItem(name) || sumbol);
 }
