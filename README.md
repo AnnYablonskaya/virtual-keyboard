@@ -1,1 +1,1 @@
-https://github.com/AnnYablonskaya/virtual-keyboard/index.html
+https://AnnYablonskaya.github.io/virtual-keyboard/index.html
