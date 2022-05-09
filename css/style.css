@@ -82,15 +82,15 @@ main {
   border-radius: 10px;
   color: aliceblue;
 }
-[data-code = "space"] {
+[data-code = "Space"] {
   width: 470px;
 }
-[data-code = "capsLock"] {
-  width: 110px;
+[data-code = "CapsLock"] {
+  width: 70px;
 }
-[data-code = "enter"] {
-  width: 110px;
+[data-code = "Enter"] {
+  width: 70px;
 }
-[data-code = "backspace"] {
+[data-code = "Backspace"] {
   width: 75px;
 }
