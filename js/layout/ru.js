@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-export default [
+ const langRu = [
   {
     small: 'CapsLock',
     big: null,
@@ -337,3 +337,4 @@ export default [
     code: 'ArrowRight',
   },
 ];
+export default langRu;

@@ -88,9 +88,15 @@ main {
 [data-code = "CapsLock"] {
   width: 70px;
 }
+.active{
+  background-color:cornflowerblue;
+  transition: 0.03s;
+  border-radius: 30px;
+}
 [data-code = "Enter"] {
   width: 70px;
 }
 [data-code = "Backspace"] {
   width: 75px;
 }
+
