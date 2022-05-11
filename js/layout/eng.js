@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-export default [
+const langEng = [
   {
     small: 'CapsLock',
     big: null,
@@ -9,7 +9,7 @@ export default [
   {
     small: '`',
     big: null,
-    code: 'Letter ',
+    code: 'Letter',
   },
   {
     small: '1',
@@ -19,7 +19,7 @@ export default [
   {
     small: '2',
     big: '@',
-    code: 'Digi2',
+    code: 'Digit2',
   },
   {
     small: '3',
@@ -337,3 +337,5 @@ export default [
     code: 'ArrowRight',
   },
 ];
+
+export default langEng;

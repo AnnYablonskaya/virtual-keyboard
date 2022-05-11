@@ -3,6 +3,9 @@
 import main from './main/main.js';
 import language from './layout/index.js';
 import Key from './Key.js';
+import * as storage from './layout/storage.js';
+import langEng from './layout/eng.js';
+import langRu from './layout/ru.js';
 
 const headboard = main(
   'headboard',
@@ -53,3 +56,31 @@ export default class Keyboard {
     });
   }
 }
+const textarea = document.querySelector('.enterText');
+window.addEventListener('keydown', (el) => {
+  el.preventDefault();
+  if (langEng.find((key) => key.code === el.code)){
+    document.querySelector(`[data-code="${el.code}"]`).classList.add('active');
+  }
+});
+
+  window.addEventListener('keyup', ({ code }) => {
+    if (langEng.find((el) => el.code === code)) {
+      document.querySelector(`[data-code="${code}"]`).classList.remove('active');
+
+    }
+  });
+  window.addEventListener('keydown', (el) => {
+    el.preventDefault();
+    if (langRu.find((key) => key.code === el.code)){
+      document.querySelector(`[data-code="${el.code}"]`).classList.add('active');
+      }
+    });
+  
+    window.addEventListener('keyup', ({ code }) => {
+      if (langRu.find((el) => el.code === code)) {
+        document.querySelector(`[data-code="${code}"]`).classList.remove('active');
+      }
+    });
+
+  
